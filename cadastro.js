@@ -53,8 +53,9 @@ function passouAluno(nomeAluno){
 addAluno("Zezinho", 1, 10)
 addAluno("Zezao", 2, 8)
 
-console.log("Bem vindo! ")
-let opcao = prompt("Menu:\n 1 - Adicionar aluno\n 2 - Deletar aluno\n 3 - Editar aluno\n 4 - Passou de ano?\n 0 - Sair\n:")
+console.log("Bem vindo!\n Menu:\n 1 - Adicionar aluno\n 2 - Deletar aluno\n 3 - Editar aluno\n 4 - Passou de ano?\n 0 - Sair\n ")
+let opcao = prompt()
+
 console.log("Wait")
 switch (opcao){
   case "1":
@@ -69,7 +70,8 @@ switch (opcao){
   case "4":
     
     break;
-  case "0":
+ 
+    case "0":
     console.log('Fim')
 }
 
